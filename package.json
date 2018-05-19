@@ -6,7 +6,7 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "dev-note:view-all"
+    "atom-workspace": ["dev-note:view-all", "dev-note:delete-note"]
   },
   "repository": "https://github.com/Ahhhhmed/dev-note",
   "license": "MIT",
