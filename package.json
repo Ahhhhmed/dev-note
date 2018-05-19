@@ -1,12 +1,14 @@
 {
   "name": "dev-note",
   "main": "./lib/dev-note",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
-    "atom-workspace": ["dev-note:view-all", "dev-note:delete-note"]
+    "atom-workspace": [
+      "dev-note:view-all",
+      "dev-note:delete-note"
+    ]
   },
   "repository": "https://github.com/Ahhhhmed/dev-note",
   "license": "MIT",
