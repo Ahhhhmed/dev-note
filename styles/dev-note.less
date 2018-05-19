@@ -2,12 +2,24 @@
 //
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
+@import "octicon-utf-codes.less";
 @import "ui-variables";
 
 .dev-note-view {
   .dev-note {
     .primary-line {
       // font-family: monospace;
+    }
+  }
+}
+
+atom-text-editor {
+  .gutter .line-number.marked .icon-right {
+    visibility: visible;
+
+    &:before {
+      content: @checklist;
+      color: #09C;
     }
   }
 }
