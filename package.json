@@ -1,0 +1,20 @@
+{
+  "name": "dev-note",
+  "main": "./lib/dev-note",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "dev-note:view-all"
+  },
+  "repository": "https://github.com/atom/dev-note",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-select-list": "^0.7.0",
+    "atom-space-pen-views": "^2.2.0"
+  }
+}

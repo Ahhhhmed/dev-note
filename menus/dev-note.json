@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "View all notes",
+        "command": "dev-note:view-all"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "dev-note",
+          "submenu": [
+            {
+              "label": "View all",
+              "command": "dev-note:view-all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
