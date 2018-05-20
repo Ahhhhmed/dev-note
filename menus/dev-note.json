@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "View all notes",
-        "command": "dev-note:view-all"
+        "command": "dev-note:view-notes"
       }
     ]
   },
@@ -15,8 +15,8 @@
           "label": "dev-note",
           "submenu": [
             {
-              "label": "View all",
-              "command": "dev-note:view-all"
+              "label": "View notes",
+              "command": "dev-note:view-notes"
             }
           ]
         }
